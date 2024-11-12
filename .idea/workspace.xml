@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e113eb7-5838-4b41-904d-d3c2afb0d1a9" name="Changes" comment="First git settings">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="5e113eb7-5838-4b41-904d-d3c2afb0d1a9" name="Changes" comment="First model">
+      <change afterPath="$PROJECT_DIR$/InvestProj/InvestPack/static/InvestPack/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InvestProj/InvestPack/templates/InvestPack/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InvestProj/InvestPack/templates/InvestPack/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/InvestProj/InvestPack/templates/InvestPack/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InvestProj/InvestProj/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/InvestProj/InvestPack/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InvestProj/InvestProj/asgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/InvestProj/InvestProj/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/InvestProj/InvestProj/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/InvestProj/InvestProj/wsgi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/InvestProj/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/InvestProj/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/InvestProj/InvestPack/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/InvestProj/InvestPack/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InvestProj/InvestPack/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/InvestProj/InvestPack/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InvestProj/InvestPack/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/InvestProj/InvestPack/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InvestProj/InvestProj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/InvestProj/InvestProj/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InvestProj/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/InvestProj/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -56,13 +58,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -87,11 +90,28 @@
       <option name="project" value="LOCAL" />
       <updated>1731153441270</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First model">
+      <option name="closed" value="true" />
+      <created>1731162558128</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731162558128</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First model">
+      <option name="closed" value="true" />
+      <created>1731162573764</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731162573764</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First git settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="First git settings" />
+    <MESSAGE value="First model" />
+    <option name="LAST_COMMIT_MESSAGE" value="First model" />
   </component>
 </project>

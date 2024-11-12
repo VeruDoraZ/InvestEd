@@ -2,10 +2,21 @@
 #Формирует http ответ - html страницу
 from django.http import HttpResponse, HttpResponseNotFound, Http404
 from django.shortcuts import render, redirect
+from .models import *
 
+
+menu = ["О сайте", "Добавить проект", "Обратная связь", "Войти", "Шаблон"]
 
 def index(request):
-    return HttpResponse("СТРАНИЦА ПРИЛОЖЕНИЯ")
+    posts = startupCard.objects.all()
+    return render(request, 'InvestPack/index.html', {'posts':  posts, 'menu': menu, 'title': 'Главная страница'})
+
+def about(request):
+    return render(request, 'InvestPack/about.html', {'menu': menu, 'title': 'О сайте'})
+
+def base(request):
+    return render(request, 'InvestPack/base.html', {'menu': menu, 'title': 'Шаблон'})
+
 
 def categories(request, catid):
     if request.POST:
